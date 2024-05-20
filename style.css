@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #70c5ce;
+  flex-direction: column;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+/* Ajustar el tamaño de la imagen del pájaro */
+#gameCanvas {
+  width: 320px; /* Ancho del canvas */
+  height: 480px; /* Alto del canvas */
+}
+
+#gameCanvas img {
+  width: 200px; /* Ancho deseado para el pájaro */
+  height: 200px; /* Alto deseado para el pájaro */
+}
+
+
+#gameOver {
+  text-align: center;
+  display: none;
+}
+
+#gameOver h1 {
+  font-size: 48px;
+  color: white;
+}
+
+#gameOver p {
+  font-size: 24px;
+  color: white;
+}
+
+#restartButton {
+  background-color: blue;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#restartButton:hover {
+  background-color: darkblue;
+}
